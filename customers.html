@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <title>GrocerKing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="customers.js"></script>
+</head>
+
+
+<body>
+<h1 style="margin-left: 10px">Customers preferences</h1>
+<div class="navbar">
+    <ul>
+        <a href="index.html">Home</a>
+        <a class="active" href="customers.html">Customers</a>
+        <a href="products.html">Products</a>
+        <a href="checkout.html">Checkout</a>
+    </ul>
+</div>
+
+<h3 class="preferenceHeader">Food</h3>
+<div class="foodPreference">
+    <form>
+        <div class="foodPreferenceOption">
+            <div class="toggle-slider" id="vegetarianToggle">
+                <label for="vegetarian" style="margin-left: 15px;">
+                    Vegetarian<br>
+                    <i><small>Don't show non-vegetarian food.</small></i>
+                </label>
+                <input type="checkbox" id="vegetarian" class="hidden">
+                <label for="vegetarian" class="slider"></label>
+            </div>
+            <hr>
+            <div class="toggle-slider" id="glutenToggle">
+                <label for="glutenFree" style="margin-left: 15px;">
+                    Gluten-free<br>
+                    <i><small>Don't show food contains gluten.</small></i>
+                </label>
+                <input type="checkbox" id="glutenFree" class="hidden">
+                <label for="glutenFree" class="slider"></label>
+            </div>
+            <hr>
+
+            <div class="toggle-slider" id="organicToggle">
+                <label for="organic" style="margin-left: 15px;">
+                    Organic<br>
+                    <i><small>Don't show non-organic food</small></i>
+                </label>
+                <input type="checkbox" id="organic" class="hidden">
+                <label for="organic" class="slider"></label>
+            </div>
+        </div>
+    </form>
+</div>
+<footer>
+    <div class="signature">
+        created by Callum Frodsham, Dante Deslauriers, and Brian Liang
+    </div>
+</footer>
+</body>
+
+</html>
