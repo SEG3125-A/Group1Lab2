@@ -2,6 +2,7 @@
 var products = [
   {
     name: "Broccoli",
+    imageLink:"../images/broccoli.jpg",
     vegetarian: true,
     glutenFree: true,
     organic: true,
@@ -11,6 +12,7 @@ var products = [
   },
   {
     name: "Lettuce",
+    imageLink:"../images/beef.jpg",
     vegetarian: true,
     glutenFree: true,
     organic: true,
@@ -19,6 +21,7 @@ var products = [
   },
   {
     name: "Milk Chocolate",
+    imageLink:"./images/chocolate.jpg",
     vegetarian: true,
     glutenFree: true,
     organic: false,
@@ -27,6 +30,7 @@ var products = [
   },
   {
     name: "Oatmeal",
+    imageLink:"./images/oatmeal.jpg",
     vegetarian: false,
     glutenFree: true,
     organic: false,
@@ -35,6 +39,7 @@ var products = [
   },
   {
     name: "Orange Juice",
+    imageLink:"./images/OrangeJuice.jpg",
     vegetarian: true,
     glutenFree: true,
     organic: false,
@@ -43,6 +48,7 @@ var products = [
   },
   {
     name: "Nuts",
+    imageLink:"./images/peanuts.png",
     vegetarian: false,
     glutenFree: true,
     organic: false,
@@ -51,6 +57,7 @@ var products = [
   },
   {
     name: "Eggs",
+    imageLink:"./images/eggs.jpg",
     vegetarian: false,
     glutenFree: true,
     organic: true,
@@ -59,6 +66,7 @@ var products = [
   },
   {
     name: "Chicken Breast",
+    imageLink:"./images/ChickenBreast.jpg",
     vegetarian: false,
     glutenFree: true,
     organic: false,
@@ -67,6 +75,7 @@ var products = [
   },
   {
     name: "Cake",
+    imageLink:"./images/cake.jpg",
     vegetarian: true,
     glutenFree: false,
     organic: false,
@@ -75,6 +84,7 @@ var products = [
   },
   {
     name: "Beef",
+    imageLink:"./images/beef.jpg",
     vegetarian: false,
     glutenFree: false,
     organic: true,

@@ -31,6 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
             priceP.className = 'price';
             priceP.textContent = `$${product.price.toFixed(2)}`;
 
+            var image = document.createElement('img');
+            image.className = 'image';
+            image.src = product.imageLink;
+
+
             var selectButton = document.createElement('button');
             selectButton.className = 'select-button';
             selectButton.textContent = 'Select';
@@ -42,7 +47,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
             itemDiv.appendChild(nameDiv);
             itemDiv.appendChild(priceP);
+            itemDiv.appendChild(image);
             itemDiv.appendChild(selectButton);
+
 
             productContainer.appendChild(itemDiv);
         });
