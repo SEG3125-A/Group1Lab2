@@ -37,19 +37,27 @@ body {
 .products-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* 5 columns */
-    grid-template-rows: repeat(2, auto); /* 2 rows */
-    gap: 10px; /* space between items */
-    padding: 10px;
+    grid-auto-rows: minmax(100px, auto); /* Auto row height with a minimum */
+    gap: 20px; /* space between items */
+    padding: 20px;
 }
 
 .item {
     background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    border: none;
     padding: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 .price {
@@ -57,6 +65,7 @@ body {
     font-size: 1.2em;
     font-weight: bold;
 }
+
 .image {
     width: 90px;
     height: 90px;
@@ -68,16 +77,17 @@ body {
 }
 
 .select-button {
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
+    transition: background-color 0.2s;
 }
 
 .select-button:hover {
-    background-color: #45a049;
+    background-color: #0069d9;
 }
 
 /*Customer Page--------------------------------------------------*/
@@ -160,6 +170,8 @@ input:checked + .slider:before {
 #selected-products-list {
     list-style-type: none;
     padding: 0;
+    max-width: 600px; /* Limit the width for better readability */
+    margin: auto; /* Center align the list */
 }
 
 #selected-products-list li {
@@ -170,25 +182,35 @@ input:checked + .slider:before {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Add a subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+}
+
+#selected-products-list li:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Enhanced shadow on hover */
 }
 
 #selected-products-list li button {
     padding: 5px 10px;
-    background-color: #ff4d4d;
+    background-color: #007bff; /* A more neutral, modern blue */
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.2s; /* Smooth transition for the background color */
 }
 
 #selected-products-list li button:hover {
-    background-color: #ff3333;
+    background-color: #0056b3; /* Darken button on hover */
 }
 
 #total-price {
     font-size: 1.2em;
     font-weight: bold;
     margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* System fonts */
 }
 
 /* General Styles */
