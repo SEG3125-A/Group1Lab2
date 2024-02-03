@@ -2,7 +2,7 @@
 var products = [
   {
     name: "Broccoli",
-    imageLink:"./images/broccoli.jpg",
+    imageLink:"./images/food/broccoli.jpg",
     vegetarian: true,
     glutenFree: true,
     organic: true,
@@ -12,7 +12,7 @@ var products = [
   },
   {
     name: "Lettuce",
-    imageLink:"./images/lettuce.jpg",
+    imageLink:"./images/food/lettuce.jpg",
     vegetarian: true,
     glutenFree: true,
     organic: true,
@@ -21,7 +21,7 @@ var products = [
   },
   {
     name: "Milk Chocolate",
-    imageLink:"./images/chocolate.jpg",
+    imageLink:"./images/food/chocolate.jpg",
     vegetarian: true,
     glutenFree: true,
     organic: false,
@@ -30,7 +30,7 @@ var products = [
   },
   {
     name: "Oatmeal",
-    imageLink:"./images/oatmeal.jpg",
+    imageLink:"./images/food/oatmeal.jpg",
     vegetarian: false,
     glutenFree: true,
     organic: false,
@@ -39,7 +39,7 @@ var products = [
   },
   {
     name: "Orange Juice",
-    imageLink:"./images/OrangeJuice.jpg",
+    imageLink:"./images/food/OrangeJuice.jpg",
     vegetarian: true,
     glutenFree: true,
     organic: false,
@@ -48,7 +48,7 @@ var products = [
   },
   {
     name: "Nuts",
-    imageLink:"./images/peanuts.png",
+    imageLink:"./images/food/peanuts.png",
     vegetarian: false,
     glutenFree: true,
     organic: false,
@@ -57,7 +57,7 @@ var products = [
   },
   {
     name: "Eggs",
-    imageLink:"./images/eggs.jpg",
+    imageLink:"./images/food/eggs.jpg",
     vegetarian: false,
     glutenFree: true,
     organic: true,
@@ -66,7 +66,7 @@ var products = [
   },
   {
     name: "Chicken Breast",
-    imageLink:"./images/ChickenBreast.jpg",
+    imageLink:"./images/food/ChickenBreast.jpg",
     vegetarian: false,
     glutenFree: true,
     organic: false,
@@ -75,7 +75,7 @@ var products = [
   },
   {
     name: "Cake",
-    imageLink:"./images/cake.jpg",
+    imageLink:"./images/food/cake.jpg",
     vegetarian: true,
     glutenFree: false,
     organic: false,
@@ -84,7 +84,7 @@ var products = [
   },
   {
     name: "Beef",
-    imageLink:"./images/beef.jpg",
+    imageLink:"./images/food/beef.jpg",
     vegetarian: false,
     glutenFree: false,
     organic: true,
