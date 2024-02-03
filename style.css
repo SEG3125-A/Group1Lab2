@@ -216,16 +216,68 @@ footer {
     border-radius: 25px;
     padding: 10px 20px;
     border: none;
-    color: black;
-    background-color: white;
     border: 1.5px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .jumpGate-button:hover{
-
     border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.8);
 
 }
+.jumpGate-button-products{
+    background-color: #4CAF50;
+    color: white;
+    padding: 0;
+    width: 100px;
+    height: 40px;
+}
+.jumpGate-button-products:hover {
+    background-color: #45a049;
+}
+
+
+.image-display img{
+        width: 32%;
+        height: 5%;
+        margin: auto;
+        margin-bottom: 10px;
+        border: 2px solid #555;
+        border-radius: 10px;
+        margin-top: 5px;
+}
+.image-display {
+  display: flex;
+  justify-content: center;}
+
+
+/* Style the black background container */
+.black-container {
+  background-color: #000; /* Set the background color to black */
+  overflow: hidden; /* Hide the content that overflows the container */
+  position: relative; /* Establish a positioning context for child elements */
+  border-radius: 0px;
+}
+
+/* Style the images within the black container */
+.imageContainer {
+  width: 100%; /* Make each image take the full width of the container */
+  display: block; /* Display images as block elements */
+}
+
+/* Style the text overlay */
+.text-overlay {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Set the text color to white */
+  text-align: center;
+  padding: 20px;
+}
+
+
+
 
 
 
