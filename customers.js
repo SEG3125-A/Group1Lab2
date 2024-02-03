@@ -2,7 +2,7 @@
 var products = [
   {
     name: "Broccoli",
-    imageLink:"../images/broccoli.jpg",
+    imageLink:"./images/broccoli.jpg",
     vegetarian: true,
     glutenFree: true,
     organic: true,
@@ -12,7 +12,7 @@ var products = [
   },
   {
     name: "Lettuce",
-    imageLink:"../images/beef.jpg",
+    imageLink:"./images/lettuce.jpg",
     vegetarian: true,
     glutenFree: true,
     organic: true,
