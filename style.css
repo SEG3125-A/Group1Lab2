@@ -288,7 +288,7 @@ footer {
 
 .text-overlay {
   position: absolute;
-  top: 90%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff; 
@@ -296,6 +296,17 @@ footer {
   padding: 20px;
 }
 
+.navbar span {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar span:hover {
+    background-color: #ddd;
+    color: black;
+}
 
 
 
