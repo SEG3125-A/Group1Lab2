@@ -236,7 +236,7 @@ footer {
 .jumpGate-button {
     font-size: 16px;
     border-radius: 25px;
-    padding: 10px 20px;
+    padding: 10% 30%;
     border: none;
     border: 1.5px solid black;
     background-color: rgba(255, 255, 255, 0.5);
@@ -245,17 +245,33 @@ footer {
 .jumpGate-button:hover{
     border: 2px solid black;
     background-color: rgba(255, 255, 255, 0.8);
-
 }
-.jumpGate-button-products{
-    background-color: #007bff;
+.jumpGate-button-customers{
+    border-radius: 25px;
+    border: 1.5px solid black;
+    background-color: black;
     color: white;
     padding: 0;
     width: 100px;
     height: 40px;
 }
+.jumpGate-button-customers:hover{
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+.jumpGate-button-products{
+    background-color: white;
+
+    padding: 0;
+    width: 20%;
+    height: 15%;
+}
 .jumpGate-button-products:hover {
-    background-color: #007bff;
+    background-color: green;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+
 }
 
 
